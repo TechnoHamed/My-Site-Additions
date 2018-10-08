@@ -1,5 +1,3 @@
-<b:if cond='data:blog.pageType != &quot;index&quot;'>
-<script>
 //floating video
 var f_video = document.getElementsByClassName(&#39;separator&#39;);
 for(i = 0 ; i &lt; f_video.length ; i++){
@@ -15,5 +13,3 @@ if(f_video[i].getElementsByClassName(&#39;YOUTUBE-iframe-video&#39;)[0] != undef
        v_body.classList.remove(&#39;f_video&#39;);
 	};
 };
-</script>
-</b:if>
